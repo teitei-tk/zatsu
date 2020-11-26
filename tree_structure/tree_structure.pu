@@ -1,0 +1,13 @@
+@startuml
+
+folder "Mac" {
+  Home --|> Downloads
+  Downloads --|> 20201126
+  Home --|> Desktop
+  Home --|> Documents
+  Documents --|> Adobe
+  Adobe --|> PremierePro
+  Adobe --|> PhotoShop
+}
+
+@enduml
